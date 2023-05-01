@@ -18,5 +18,6 @@ You can only see the app password section of you enabled two step verification f
    Copy the local host ip and paste on your browser 
    Then it will show a page not found 
 
-   @ browser direct  to /mail by adding "ip/mail/" and there you go
+   @ browser direct  to /mail by adding "http://127.0.0.1:8000/mail/" and there you go.
+   
 
