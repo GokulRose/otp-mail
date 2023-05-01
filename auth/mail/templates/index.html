@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rose</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">welcome to examination login</h1>
+        <div class="login">
+            <form action="../login/" method="post">
+                {% csrf_token %}
+                <section>
+                    <br>
+                    <h1 class="text">OTP Sent Successfully to your registered email</h1>
+                    <br>
+                    <input type="text" name="otp" placeholder="OTP">
+                    <br>
+                </section>
+                <input type="submit" value="login">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
